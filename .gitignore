@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database / env (no secrets or local DBs in git)
+*.db
+*.sqlite3
+.env
+.env.local
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Runtime artifacts
+reports_output/
+*.log
+
+# OpenShip deploy config (contains API token / secrets)
+openship-deploy.json
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
